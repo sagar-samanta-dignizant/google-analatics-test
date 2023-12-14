@@ -1,17 +1,13 @@
-import './App.css';
-import { useState } from 'react';
+import "./App.css";
+import { useState } from "react";
+import MyForm from "./components/MyForm";
 
 function App() {
-  const [count, setCount] = useState(0)
-  const hanldleClick = () => {
-    setCount((prev) => prev + 1)
-  }
+ 
   return (
-    <div className="App" style={{ dislapy: 'flex' }}>
-      <div>Testing App 24444</div>
-      <div>Count= {count}</div>
-      <img src="/logo192.png"  alt='NOT'/>
-      <button style={{height:'100px',width:'100px',cursor:'pointer'}} onClick={() => hanldleClick()}>Download</button>
+    <div className="App" style={{ dislapy: "flex" }}>
+      <img src="/logo192.png" alt="NOT" />
+      <MyForm />
     </div>
   );
 }
