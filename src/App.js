@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import Google from './components/Goolge';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,8 @@ function App() {
     <div className="App" style={{ dislapy: 'flex' }}>
       <div>Testing App</div>
       <div>Count= {count}</div>
-      <button onClick={() => hanldleClick()}>Submit here</button>
+      <Google/>
+      <button onClick={() => hanldleClick()}>Increse</button>
     </div>
   );
 }
