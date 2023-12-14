@@ -17,7 +17,8 @@ function App() {
     <div className="App" style={{ dislapy: 'flex' }}>
       <div>Testing App 2</div>
       <div>Count= {count}</div>
-      <button onClick={() => hanldleClick()}>Increse</button>
+      <img src="/logo192.png"  alt='NOT'/>
+      <button style={{height:'100px',width:'100px',cursor:'pointer'}} onClick={() => hanldleClick()}>Download</button>
     </div>
   );
 }
