@@ -32,7 +32,7 @@ const MyForm = () => {
     // Send a success event to Google Tag Manager
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      'event': 'formSubmissionSuccess',
+      'event': 'new_account_signup',
       // Add any additional data you want to send
     });
   };
